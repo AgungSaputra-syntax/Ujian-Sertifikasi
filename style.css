@@ -1,0 +1,106 @@
+/* container */
+.container{
+	max-width: 960px;
+    padding-right: 10px;
+	padding-left: 10px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+/* box header */
+.box{
+	background-color: rgb(195, 18, 86);
+	height: 120px;
+	position: relative;
+}
+
+.box h1{
+	line-height: 120px;
+	text-align: center;
+	color: #FFF;
+}
+
+.box .date{
+	position: absolute;
+    top: 0px;
+    right: 16px;
+	font-size: 18px;
+	color: #FFF;
+}
+
+/* input form */
+.input-form{
+	width: 100%;
+	text-align: -webkit-center;
+}
+
+.input-form table{
+	width: 100%;
+	padding: 0px 100px;
+}
+
+/* Button */
+.btn-green {
+    background-color: #12c37f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-green1{
+    background-color: #12c37f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    position: relative;
+    left: 35%;
+    cursor: pointer;
+}
+
+.btn-red{
+    background-color: #c31256;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+h3{
+    margin: 10px 335px;
+}
+
+.tbl_nilai{
+    margin: auto;
+}
+
+/* CSS Reset */
+body{
+	margin: 0 !important;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type=text] {
+    width: 100%;
+	padding: 12px 10px;
+	margin: 5px 0;
+	font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
